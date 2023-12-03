@@ -1,0 +1,21 @@
+.home {
+    background-image: url('/Cinema/images/geoffrey-moffett-TFRezw7pQwI-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-top: 19%;
+    margin-right: 5%;
+}
+.cidade {
+        display: flex;
+        justify-content: center;
+    }
+.filmes { 
+        display: flex;
+        justify-content: center;
+}
+.link {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}

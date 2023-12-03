@@ -1,0 +1,127 @@
+*{
+    box-sizing: border-box;
+    font-family: helvetica;
+    font-size: 20px;
+}
+body{
+    background-color: black;
+
+}
+.corpo {
+    width: 1000px;
+    margin-left: 170px;
+    padding: 0%;
+    align-items: center;
+    color: #ffffff;
+}
+
+.cabecalho {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.barra_de_pesquisa {
+    background-color: transparent;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+.cabecalho_links {
+    background: black;
+    border: 1px #d7d7d7;
+    border-radius: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    color: white;
+}
+
+.filme_destaque {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-image: url(./imagens/filmes/O-Último-Caçador-de-Bruxas.webp);
+    /* background-size: contain; */
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-position: -130px -50px ;
+    color: white;
+    text-align: left;
+    padding-left: 20px;
+}
+.top10_cabecalho {
+    margin: 20px 20px 20px 20px;
+    display: flex;
+    gap: 10px;
+}
+.top10 img {
+    border-radius: 10px;
+}
+.top10{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.todos_os_filmes_cabecalho {
+    margin: 20px 20px 20px 20px;
+    display: flex;
+    gap: 10px;
+    text-decoration: none;
+}
+.todos_os_filmes_cabecalho a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.todos_os_filmes {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 10px;
+}
+.todos_os_filmes img {
+    border-radius: 10px;
+}
+.Margin0 {
+    margin: 0;
+    /* padding-left: 10px; */
+}
+.todas_as_series_cabecalho {
+    margin: 20px 20px 20px 20px;
+    display: flex;
+    gap: 10px;
+}
+.todas_as_series_cabecalho a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.todas_as_series {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 10px;
+}
+.todas_as_series img {
+    border-radius: 10px;
+}
+.top10_numero_1 {
+    font-size: 200px;
+    z-index: -1;
+    position: absolute;
+    right: 1155px;
+    top: 415px;
+    /* color: red; */
+}
+.top10_numero_2 {
+    font-size: 200px;
+    z-index: -1;
+    position: absolute;
+    right: 820px;
+    top: 415px;
+    /* color: orange; */
+}
+.top10_numero_3 {
+    font-size: 200px;
+    z-index: -1;
+    position: absolute;
+    right: 490px;
+    top: 415px;
+    /* color: yellow; */
+}

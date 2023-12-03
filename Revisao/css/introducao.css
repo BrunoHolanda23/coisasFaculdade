@@ -1,0 +1,35 @@
+.foto {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.foto_exemplo {
+    transform: skew(20deg) rotate(20deg);
+    display: grid;
+    background-color: gray;
+    width: 250px;
+    height: 300px;
+    margin: 50px 30px 30px 50px;
+}
+.foto_texto {
+    align-self: center;
+    justify-self: center;
+}
+.foto_informacao{
+    font-size: 20px;
+}
+.foto_informacao_titulo {
+    font-size: 4.5rem;
+    margin-bottom: 0;
+}
+.foto_informacao_titulo::before {
+    content: "";
+    width: 60px;
+    height: 20px;
+    background-color: aquamarine;
+    display: block;
+    position: relative;
+    transform: rotate(-20deg);
+    top: 20px;
+    left: -20px;
+    z-index: -1;
+}

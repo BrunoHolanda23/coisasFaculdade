@@ -1,0 +1,33 @@
+.rodape {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color:rgb(10, 10, 10);
+
+    border: solid;
+}
+.rodape_dados1 {
+    margin-left: 20px;
+    text-align: left;
+    font-size: 20px;
+    color: gray;
+}
+.rodape_dados1::before {
+    content: "";
+    width: 50px;
+    height: 30px;
+    background-color: aquamarine;
+    display: block;
+    position: relative;
+    transform: rotate(-20deg);
+    top: -20px;
+}
+.rodape_dados2 {
+    margin-left: 20px;
+    text-align: left;
+    font-size: 20px;
+    color: white;
+}
+.rodape_dados3 {
+    color:gray;
+    margin-left: 20px;
+}

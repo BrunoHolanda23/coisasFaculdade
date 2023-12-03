@@ -1,0 +1,70 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    text-align: center;
+}
+.carro{
+    background-color: black;
+    color: white;
+    margin-left: 3%;
+    margin-right: 5%;
+    width: 90%;
+    border-radius: 4px;
+    height: 150px;
+    padding: 25px;
+    padding-top: 2px;
+    margin-bottom: 10px;
+    
+}
+.carro_preco {
+    color: #febe01;
+}
+.carro_ano {
+    color: #febe01;
+}
+.carro_km {
+    color: #febe01;
+}
+.botao_carro {
+    color: black;
+    background-color: #febe01;
+    border-radius: 4px;
+    padding: 15px 40px 10px 10px;
+    max-width: 75px;
+    height: 25px;
+    margin-left: 2px;
+    margin-bottom: 50px;
+    margin-right: 90px;
+}
+.bicicleta {
+    background-color: black;
+    color: white;
+    margin-left: 3%;
+    margin-right: 5%;
+    width: 90%;
+    border-radius: 4px;
+    height: 150px;
+    padding: 25px;
+    padding-top: 2px;
+}
+.botao_bike {
+    color: black;
+    background-color: #febe01;
+    border-radius: 4px;
+    padding: 15px 40px 10px 10px;
+    max-width: 100px;
+    height: 25px;
+    margin-left: 2px;
+    margin-bottom: 50px;
+    margin-right: 90px;
+}
+.bike_preco {
+    color: #febe01;
+}
+.bike_ano {
+    color: #febe01;
+}
+.bike_km {
+    color: #febe01;
+}

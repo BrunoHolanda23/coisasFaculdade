@@ -1,0 +1,38 @@
+header {
+    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #cafe;
+    border: solid;
+
+}
+.nome {
+    margin-left: 20px;
+}
+.titulo {
+    margin-left: 20px;
+    font-size: 8rem;
+}
+.menu1 {
+    text-align: center;
+    list-style: none;
+    display:flex;
+    justify-content: center;
+    align-self: center;
+    justify-self: right;
+    gap: 10px;
+    margin-right: 20px;
+}
+.menu {
+    text-align: center;
+    list-style: none;
+    display:flex;
+    justify-content: center;
+    align-self: center;
+    justify-self: right;
+    gap: 10px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}

@@ -1,0 +1,9 @@
+* {
+    max-width: 1200px;
+    margin: auto;
+    align-self: center;
+}
+body{
+    border: solid;
+    margin:auto
+}
